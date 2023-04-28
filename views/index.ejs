@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🥺🥰¿QUIEN ES LA PERSONA QUE AMO MUCHO?🥺🥰</title>
+    <style>
+.body {
+
+    background-color: brown;
+    text-align: center;
+}
+.body__title {
+color: aliceblue;
+}
+.body_img
+{
+
+    width: 100%;
+    border-radius: 55%;
+
+}
+
+    </style>
+
+
+</head>
+<body class="body">
+    <h1 class="body__title">🥺🥰¿TU ERES A LA PERSONA QUE AMO?🥺🥰</h1>
+    <img src="https://images.ecestaticos.com/Uzg5B-crJs_w3v_gIwNuFScFNKU=/43x112:1919x1112/557x418/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F70d%2Fa25%2F119%2F70da25119fa72320d96107e86a518c18.jpg" alt="Foto de mi"/>
+    <button id="YES"> 💖💖SI SOY💖💖 </button>
+    <button id="NO">😭😭 NO SOY😭😭 </button>
+    <script>
+ const vutonSI = document.getElementById ("YES");
+ const vutonNO = document.getElementById ("NO");
+ const PORQUEPIENSASQUENO = () =>{
+    alert("¿🙃🙃PORQUE PENSASTE QUE NO LO ERAS?🙃🙃");
+    alert("🙈💖💖SI YO TE AMO DEMASIADO💖💖🙈");
+    location.href = "https://www.youtube.com/watch?v=jwP1HRmDVII.22seg";
+   }
+   const evitarquepiensequenoloamo = () => {
+    vutonNO.style.position = "absolute";
+    vutonNO.style.top = (Math.random() * window.innerHeight) + "px";
+    vutonNO.style.left = (Math.random() * window.innerWidth) + "px";
+   }
+
+   vutonSI.addEventListener("click", PORQUEPIENSASQUENO);
+   vutonNO.addEventListener("mouseover", evitarquepiensequenoloamo);
+</script>
+</body>
+</html>
